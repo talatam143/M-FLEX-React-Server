@@ -1,0 +1,603 @@
+@media (width > 375px) {
+  .movieDetailsBackArrowIcon {
+    font-size: 24px;
+    stroke-width: 1;
+  }
+  .movieDetailsHeadContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .movieDetailsContainer {
+    margin: 5px 20px;
+  }
+  .movieDetailsPosterContainer {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .movieDetailsTrailerHeadContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .movieDetailsLanguageAndCountryContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    margin-top: 10px;
+  }
+  .movieDetailsLanguagesContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0 0 0;
+  }
+  .movieDetailsCountriesContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0 0 0;
+  }
+  .movieDetailsTrailerContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .movieDetailsSubHeadContainer {
+    width: 100%;
+  }
+  .eachMovieDetailsCastSubContainer {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+    overflow-x: auto;
+    margin: 10px 0;
+    width: 100%;
+    white-space: nowrap;
+    border-radius: 10px;
+  }
+  .movieDetailsEachCastContainer {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .eachMovieDetailsProfilePicture {
+    height: 160px;
+    width: 140px;
+    border-radius: 8px 8px 0 0;
+  }
+  .eachMovieDetailsCastName {
+    margin: 0;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 5px;
+    white-space: pre-wrap;
+  }
+  .eachMovieDetailsCharacterName {
+    margin: 0;
+    font-size: small;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+  }
+  .eachMovieDetailsBodySubContainer {
+    width: 100%;
+  }
+  .movieDetailsWebsiteLink {
+    word-wrap: break-word;
+  }
+  .movieDetailsEachSimilarMovieContainer{
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+@media (768px <= width <= 1024px) {
+  .movieDetailsBackArrowIcon {
+    font-size: 26px;
+    stroke-width: 1;
+  }
+  .movieDetailsHeadContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .movieDetailsContainer {
+    margin: 5px 20px;
+  }
+  .movieDetailsPosterContainer {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .movieDetailsTrailerHeadContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .movieDetailsLanguageAndCountryContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .movieDetailsLanguagesContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0 0 0;
+    width: 50%;
+  }
+  .movieDetailsCountriesContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0 0 0;
+    width: 50%;
+  }
+  .movieDetailsTrailerContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .movieDetailsSubHeadContainer {
+    width: 100%;
+  }
+  .eachMovieDetailsCastSubContainer {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+    overflow-x: auto;
+    margin: 10px 0;
+    width: 100%;
+    white-space: nowrap;
+    border-radius: 10px;
+  }
+  .movieDetailsEachCastContainer {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .eachMovieDetailsProfilePicture {
+    height: 200px;
+    width: 170px;
+    border-radius: 8px 8px 0 0;
+  }
+  .eachMovieDetailsCastName {
+    margin: 0;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 5px;
+    white-space: pre-wrap;
+  }
+  .eachMovieDetailsCharacterName {
+    margin: 0;
+    font-size: small;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+  }
+  .movieDetailsEachSimilarMovieContainer{
+    width: 23%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+}
+
+@media (width > 1024px) {
+  .movieDetailsBackArrowIcon {
+    font-size: 28px;
+    stroke-width: 1;
+  }
+  .movieDetailsContainer {
+    margin: 5px 30px 30px 30px;
+  }
+  .movieDetailsHeadContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .movieDetailsPosterContainer {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .movieDetailsSubHeadContainer {
+    width: 70%;
+  }
+  .movieDetailsTrailerHeadContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .movieDetailsTitleContainer {
+    width: fit-content;
+    max-width: 600px;
+  }
+  .movieDetailsLanguageAndCountryContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .movieDetailsLanguagesContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0 0 0;
+    width: 50%;
+  }
+  .movieDetailsCountriesContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0 0 0;
+    width: 50%;
+  }
+  .movieDetailsTrailerContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .eachMovieDetailsBodyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+  .eachMovieDetailsBodySubContainer {
+    width: 59%;
+  }
+  .eachMovieDetailsCastContainer {
+    width: 39%;
+  }
+  .eachMovieDetailsCastSubContainer {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1%;
+    width: 100%;
+    margin-top: 10px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  .movieDetailsEachCastContainer {
+    width: 32%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .eachMovieDetailsProfilePicture {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  .eachMovieDetailsCastName {
+    margin: 0;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .eachMovieDetailsCharacterName {
+    margin: 0;
+    font-size: small;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .eachMovieDetailsCastSubContainer {
+    scrollbar-width: auto;
+    scrollbar-color: #8e8f92;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .eachMovieDetailsCastSubContainer::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+  }
+
+  .eachMovieDetailsCastSubContainer::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .eachMovieDetailsCastSubContainer::-webkit-scrollbar-thumb {
+    background-color: #8e8f92;
+    border-radius: 20px;
+    border-right: none;
+    border-left: none;
+  }
+
+  .eachMovieDetailsCastSubContainer::-webkit-outer-spin-button,
+  .eachMovieDetailsCastSubContainer::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .movieDetailsBudgetContainer {
+    display: flex;
+    gap: 100px;
+  }
+  .movieDetailsSmallHr {
+    display: none;
+  }
+  .movieDetailsEachSimilarMovieContainer{
+    width: 20%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+}
+
+/* ---------------------------Containers--------------------------- */
+.movieDetailsGenresContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 0 0;
+}
+.movieDetailsImdbContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: fit-content;
+  background-color: #fff8e1;
+  border-radius: 10px;
+  width: 180px;
+  height: 110px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.movieDetailsSubImdbContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.movieDetailsTrailerContainer:hover {
+  cursor: pointer;
+}
+.movieDetailsTrailerDialogTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 15px 5px 10px;
+}
+.movieDetailsDirectorContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  border-radius: 6px;
+  margin-top: 15px;
+  height: 36px;
+}
+.movieDetailsSimilarMoviesContainer{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* ---------------------------Buttons--------------------------- */
+.movieDetailsBackArrowButton {
+  background-color: transparent;
+  border: none;
+  margin: 10px 0 0 15px;
+  padding: 0;
+}
+/* ---------------------------Images--------------------------- */
+.movieDetailsPoster {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  transition: 0.3s all ease-in;
+}
+
+.movieDetailsPoster:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  transition: 0.3s all ease-in;
+}
+
+/* ---------------------------Paragraphs--------------------------- */
+.movieDetailsTitle {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+}
+.movieDetailsTagline {
+  margin: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+.movieDetailsReleasedDate {
+  margin: 14px 0 0 0;
+  font-size: 17px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.movieDetailsGenre {
+  margin: 0;
+  color: #212212;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.movieDetailsImdbHeading {
+  margin: 0;
+  color: #f5c518;
+  font-weight: 600;
+  font-size: 24px;
+}
+.movieDetailsImdbRating {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.movieDetailsPlayTrailer {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.movieDetailsTrailerHeading {
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.movieDetailsDirectorHeading {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 6px 0 0 6px;
+}
+.eachMovieDetailsDirector {
+  margin: 0;
+  color: #212121;
+  font-size: 18px;
+  padding: 0 5px 0 0;
+  border-color: #000000;
+}
+.eachMovieDetailsDirector:not(:last-of-type) {
+  border: solid;
+  border-width: 0 2px 0 0;
+}
+.movieDetailsBodyHeading {
+  margin: 0;
+  font-size: large;
+  font-weight: 500;
+}
+.movieDetailsBodyPara {
+  margin: 0;
+  font-size: medium;
+}
+.eachMovieDetailsReviewContent{
+  margin: 5px 0 0 0;
+  font-size: medium;
+}
+.eachMovieDetailsReviewDate{
+  margin: 5px 0 0 0;
+  font-size: medium;
+  font-weight: 600;
+}
+.eachMovieDetailsReviewAuthor{
+  margin: 5px 0 0 0;
+  font-size: large;
+  font-weight: 600;
+}
+
+/* ---------------------------Icons--------------------------- */
+.movieDetailsCalendarIcon {
+  margin-right: 8px;
+  font-size: 24px;
+}
+.movieDetailsGenresIcon {
+  font-size: 24px;
+  stroke-width: 0.3;
+}
+.movieDetailsLanguageIcon {
+  font-size: 24px;
+  stroke-width: 2;
+}
+.movieDetailsCountriesIcon {
+  font-size: 24px;
+  stroke-width: 1;
+}
+.movieDetailsImdbStarIcon {
+  font-size: 22px;
+  color: #f5c518;
+}
+.movieDetailsImdbUserIcon {
+  font-size: 24px;
+}
+.movieDetailsPlayTrailerIcon {
+  font-size: 35px;
+  color: #ff0000;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.movieDetailsTrailerCloseIcon {
+  font-size: 30px;
+  color: #ffffff;
+}
+.movieDetailsTrailerCloseIcon:hover {
+  cursor: pointer;
+}
+
+/* ---------------------------Miscellaneous--------------------------- */
+.eachMovieDetailsHorizontalLine {
+  border: none;
+  width: 100%;
+  height: 0.1px;
+  margin-top: 10px;
+}
+.eachMovieDetailsCastBottomHorizontalLine{
+  border: none;
+  width: 100%;
+  height: 0.1px;
+}
+.movieDetailsEachSimilarMoviePoster:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.movieDetailsAddPadding{
+  margin-left: 10px;
+}
+.movieDetailsEachSimilarMovieContainer:hover{
+  cursor: pointer;
+}
+.movieDetailsEachSimilarMoviePoster{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  transition: 0.3s ;
+}
+
+/* ---------------------------Swiper--------------------------- */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.swiper-slide {
+  border-radius: 10px;
+  height: 200px;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
